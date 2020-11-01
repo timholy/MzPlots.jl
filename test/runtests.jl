@@ -24,6 +24,6 @@ using MzCore.AxisArrays: Axis
     asrange(axi::Axis{name}, n) where name = Axis{name}(range(minimum(axi.val), stop=maximum(axi.val), length=n))
     aa = AxisArray(zeros(sz), map(asrange, lims, sz)...)
     copyto!(aa, scans)
-    p = Plots.plot(scans)
+    p = Plots.plot(aa)
     @test isa(p, Plots.Plot)
 end
