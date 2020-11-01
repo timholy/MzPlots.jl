@@ -6,7 +6,6 @@ version = "0.1.0"
 [deps]
 AbstractPlotting = "537997a7-5e4e-5d89-9595-2241ea00577e"
 MzCore = "0ec0bfde-29d9-4330-bf45-ac65ec309208"
-MzXML = "cb69de98-8f9f-5947-b504-cdcc19a34020"
 Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
