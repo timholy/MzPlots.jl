@@ -1,3 +1,6 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 MzPlots = "5043a3e8-8306-400d-ba57-2ed3b7fadd60"
+
+[compat]
+Documenter = "0.25"
